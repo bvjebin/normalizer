@@ -2,6 +2,28 @@
 
     npm install node-normalizer
 
+The package involves the following kinds of data files which can be configured using the options.
+
+```
+var options = {
+  contractions: true,
+  interjections: true,
+  british: true,
+  spellfix: true,
+  texting: true
+};
+```
+
+```
+var normalizer = require("node-normalizer");
+//Setting false to these option values will
+//exclude them from normalizing process
+normalizer.options.interjections = false;
+normalizer.loadData(function() {
+  console.log(normalizer.clean("I have no idea"));
+})
+```
+
 The simple app processes input and tries to make it consumable for a bot.
 
 The order in which the processing happes is important.
