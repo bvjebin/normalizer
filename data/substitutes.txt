@@ -1143,7 +1143,6 @@ prof. professor
  noone no+one
  nostalgia_for_the_past nostalgia
  not_a_bit no
- not_atm not+at+the+moment
  not_many few
  not_old_enough too+young
  not_possible impossible
