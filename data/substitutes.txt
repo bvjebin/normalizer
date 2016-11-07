@@ -439,7 +439,6 @@ prof. professor
  at_this_point_in_time at+this+time
  atleast at+least
  ATM_machine ATM
- atm> at+the+moment
  atthe at+the
  autobiography_of_her_life autobiography
  autobiography_of_his_life autobiography
